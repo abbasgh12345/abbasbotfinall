@@ -221,7 +221,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {179983320},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -230,20 +230,14 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@unkownhacker
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+@IamRasTin 
+amir w.h
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@extremerobos [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -323,21 +317,26 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
+اخراج
 You can also do it by reply
 
 !ban [ username|id]
+اخراج و مسدود
 You can also do it by reply
 
 !unban [id]
 You can also do it by reply
 
 !who
+افراد گروه
 Members list
 
 !modlist
+مدیران گروه
 Moderators list
 
 !promote [username]
+مدیر گروه شو
 Promote someone
 
 !demote [username]
@@ -347,15 +346,19 @@ Demote someone
 Will kick user
 
 !about
+موضوع گروه
 Group description
 
 !setphoto
+تعیین و قفل عکس
 Set and locks group photo
 
 !setname [name]
+تعیین نام
 Set group name
 
 !rules
+قوانین
 Group rules
 
 !id
@@ -370,30 +373,39 @@ Locks [member|name|bots|leaveing]
 Unlocks [member|name|bots|leaving]
 
 !set rules <text>
+تعیین قوانین
 Set <text> as rules
 
 !set about <text>
+تعیین موضوع
 Set <text> as about
 
 !settings
+تنظیمات
 Returns group settings
 
 !newlink
+ساخت لینک جدید
 create/revoke your group link
 
 !link
+لینک
 returns group link
 
 !owner
+صاحب گروه
 returns group owner id
 
 !setowner [id]
+تعیین صاحب جدید
 Will set id as owner
 
 !setflood [value]
+حساست اسپم
 Set [value] as flood sensitivity
 
 !stats
+تعداد پیام های هر شخص در گروه
 Simple message statistics
 
 !save [value] <text>
