@@ -217,6 +217,7 @@ function create_config( )
     "webshot",
     "autoleave",
     "arabic_lock",
+    "spammer",
     "set",
     "get",
     "broadcast",
