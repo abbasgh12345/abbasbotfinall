@@ -212,17 +212,17 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
-    "echo"
-    "antoleave"
+    "echo",
+    "antoleave",
     "arabic_lock",
     "set",
     "get",
     "broadcast",
     "download_media",
-    "ANTI-STICKER"
-    "invite",
+    "ANTI-STICKER",
+    
     "all",
-    "Plugin"
+    "Plugin",
     "leave_ban"
     },
     sudo_users = {179983320},--Sudo users
