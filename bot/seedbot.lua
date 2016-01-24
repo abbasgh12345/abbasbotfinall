@@ -371,11 +371,11 @@ return group id or user id
 
 !help
 
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+!lock [member|name|bots|leave|arabic]	
+Locks [member|name|bots|leaveing|arabic] 
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+!unlock [member|name|bots|leave|arabic]
+Unlocks [member|name|bots|leaving|arabic]
 
 !set rules <text>
 تعیین قوانین
