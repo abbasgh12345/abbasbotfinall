@@ -217,6 +217,7 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
+    "ANTI-STICKER"
     "invite",
     "all",
     "Plugin"
