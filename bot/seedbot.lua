@@ -213,14 +213,13 @@ function create_config( )
     "anti_spam",
     "owners",
     "echo",
-    "antoleave",
+    "anto leave",
     "arabic_lock",
     "set",
     "get",
     "broadcast",
     "download_media",
-    "ANTI-STICKER",
-    
+    "ANTI-STICKER",    
     "all",
     "Plugin",
     "leave_ban"
